@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h2>Imagem dinâmica</h2>
+    <p>Tente abrir esse site em dispositivos diferentes</p>
+
+    <picture>
+        <source media="(max-width: 612px)" srcset="imagenss/imagempequena.jpg" type="image/jpg"> <!--srcset: endereço; e o max-width: 612 é o tamando da imagem média-->
+        <source media="(max-width: 1000px)" srcset="imagenss/imagemmedia.jpg" type="image/jpg"> <!--esse max width 1000px refere-se à imagem grande-->
+        <img src="imagenss/imagemgrande.jpg" alt="Imagem flexível">
+
+        <h1>Reproduzindo áudio</h1>
+        <p>Vamos aprender a reproduzir áudios em HTML5</p>
+        <audio src="Carousel Dreams - The Soundlings.mp3" controls autoplay></audio> <!--MP3 WAV OGG-->
+        <!--você pode adicionar preload = metadata, esse função adiciona algumas informações do audio, como data, duração-->
+
+        <audio> <!--Formas para adicionar audios se daquela primeira forma não funcionar-->
+            <!-- <source src="Carousel Dreams - The Soundlings.mp3" type="audio/mpeg">
+            <source src="Carousel Dreams - The Soundlings.mp3" type="audio/OGG--">
+            <source src="Carousel Dreams - The Soundlings.mp3" type="audio/WAV"> -->
+        </audio>
+
+
+    </picture>
+    
+</body>
+</html>

@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+
+body {
+    background-image: linear-gradient(to left, #F4989C, #EBD2B4, #d49aba 900px); 
+}
+
+main {
+    background-color: white;
+    border-radius: 20px; /*arredonda as bordas da caixa de texto*/
+    box-shadow: 10px 10px 10px #81536d; /*SOMBRA DA CAIXA DE TEXTO - 
+    1o parêmetro: variação da sombra para o lado; 
+    2o parâmetro: variação da sombra para baixo; 
+    3o parâmetro: variação da sombra de espalhamento; 4o parâmetro: transparência da sombra*/
+    width: 600px; /*largura*/
+    padding: 10px;/*preenchimento*/
+    margin: auto;/*margem*/
+}
+
+h1 {
+    color: #6D435A;
+    text-align: center;
+    text-shadow: 1px 1px 2px ;
+}
+h2 {color: #6D435A;}
+
+p {
+    text-align: justify;
+}
+
