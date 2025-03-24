@@ -10,13 +10,15 @@
         height: 100vh;
         background-color: black;
         background-image: url('imagens/wallpaper002.jpg');
-        background-position: center center;
+        background-position: center center; /*o primeiro center coloca o centro da imagem à mostra, o segundo, faz ele ficar no centro da viewport*/
         background-repeat: no-repeat;
-        background-size: contain; /*
+        background-size: cover; /*
+
+
         
         contain: faz a imagem se ajustar conforme o tamanho da janela e toda a imagem é exibida (por completo), mas por causa disso, o background-color aparece para compensar a falta de imagem na tela do monitor
 
-        cover: a imagem também se ajusta conforme o tamanho da janela, porém dependendo do tamanho da janela (se for menor que a imagem), parte da imagem será cortada.
+        cover: a imagem se ajusta conforme o tamanho da janela, porém, quando a janela/monitor é menor, parte da imagem fica cortada.
         */
     }
 
