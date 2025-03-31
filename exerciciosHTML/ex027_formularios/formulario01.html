@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulário</title>
+
+	<style> 
+		* {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+	</style>
+</head>
+<body>
+	<h1>Meu primeiro formulário</h1>
+
+	<form action="cadastro.php" method="get" autocomplete="off"> 
+		<!--get: é padrão; usado para quando os dados do formulários não forem sensiveis (senhas, info de cartões de crédito, endereço.../// post: esconde, mas apenas na URL, os dados inseridos no formulário)--> 
+		<!--para desativar a sugestão de nome-->
+		<p><label for="inome">Nome</label>: <input type="text" name="nome" id="inome"></p>
+		<p><label for="isobrenome">Sobrenome</label>: <input type="text" name="sobrenome" id="isobrenome"></p>
+		<p><input type="submit" value="Enviar"></p> <!--subimit: ação de enviar. Value: nomeação do botão de envio-->
+
+		<!--envelope com "label" e preeencha "for" como o id -->
+		<!--o label aumenta a área de sensibilidade para clicar na parte de formulário-->
+
+	</form> 
+
+	
+</body>
+</html>
